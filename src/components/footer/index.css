@@ -1,0 +1,29 @@
+.footer {
+    /* The image used */
+    background-image: url("../../assets/images/bitmap_2.png");
+    
+    /* Set a specific height */
+    min-height: 250px;
+    
+    /* Create the parallax scrolling effect */
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-content {
+    padding: 100px;
+    color: #ffffff;
+}
+
+.footer-content span {
+    line-height: 0;
+    font-size: 14px;
+}
+
+.footer-content a {
+    font-size: 12px;
+    color: #cfb995;
+    cursor: pointer;
+}
